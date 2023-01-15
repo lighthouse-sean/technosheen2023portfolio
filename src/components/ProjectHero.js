@@ -1,5 +1,4 @@
 import React from "react"
-import SocialLinks from "./SocialLinks"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 

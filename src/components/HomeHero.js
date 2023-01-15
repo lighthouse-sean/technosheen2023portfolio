@@ -1,5 +1,4 @@
 import React from "react"
-import HomeHeroSubscription from "./HomeHeroSubscription"
 import SocialLinks from "./SocialLinks"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
@@ -68,10 +67,9 @@ const HomeHero = () => {
             <div className="home-cover-content-wrap">
               <h1 className="heading-large">Hi 👋  I'm Sean</h1>
               <div className="intro-description">
-                aka technosheen. I'm a fullstack engineer,
-                specializing in AEM, Hubspot, and Wordpress development.
+                 I'm a fullstack engineer with <a style={{color:'#e6e6e6'}} href="https://lhchq.com/" target="_blank" rel="noreferrer">Lighthouse Creative Group</a>.
+                 I specialize in AEM, Hubspot, and Wordpress development.
               </div>
-              <HomeHeroSubscription />
               <SocialLinks />
             </div>
           </div>
