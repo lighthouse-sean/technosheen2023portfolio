@@ -2,7 +2,6 @@ import React from "react"
 import "../assets/scss/screen.scss"
 import Header from "./Header"
 import Footer from "./Footer"
-import NewsletterSubscription from "./NewsletterSubscription"
 import { graphql, useStaticQuery } from "gatsby"
 import SearchPopup from "./SearchPopup"
 import SearchPopupContext from "../util/searchPopupContext"
@@ -24,7 +23,6 @@ const Layout = ({ children }) => {
       <SearchPopupContext.Provider value={{ popupVisible, setPopupVisible }}>
         <Header />
         {children}
-        <NewsletterSubscription />
         <Footer />
         <SearchPopup />
       </SearchPopupContext.Provider>
