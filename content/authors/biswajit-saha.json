@@ -1,0 +1,14 @@
+{
+  "name": "Sean Mahoney",
+  "email": "sean@technosheen.com",
+  "description": "Sean is a software engineer specializing in Adobe Experience Manager, Hubspot, and Wordpress development",
+  "profilePicture": "../images/profile-picture.png",
+  "location": "New York, NY + St. Petersburg, FL",
+  "socialLinks": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/technosheen"
+    }
+  ],
+  "coverImage": "../images/default.jpg"
+}
