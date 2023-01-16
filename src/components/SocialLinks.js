@@ -11,7 +11,7 @@ const SocialLinks = () => {
       <span className="title">Follow:</span>
       <div className="social-links flex">
         {social.map((item, index) => (
-          <a href={item.url} aria-label="twitter link" key={index}>
+          <a href={item.url} aria-label="twitter link" key={index} target="_blank" rel="noreferrer">
             {(() => {
               const Icon =
                 IconsMap[item.name.toLowerCase()] || IconsMap["Default"]

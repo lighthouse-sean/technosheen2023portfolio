@@ -16,6 +16,7 @@
     "cms": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "gatsby": "^4.13.1",
     "gatsby-plugin-disqus": "^1.2.4",
     "gatsby-plugin-google-analytics": "^4.13.0",
