@@ -17,6 +17,10 @@
 .intro-description {
     font-size: 1.5rem;
 }
+
+.intro-description a {
+    color: var(--c-text-main);
+}
 .cover-subscribe-form {
     margin-top: 40px;
     max-width: 460px;

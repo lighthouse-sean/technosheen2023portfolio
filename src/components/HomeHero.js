@@ -67,7 +67,7 @@ const HomeHero = () => {
             <div className="home-cover-content-wrap">
               <h1 className="heading-large">Hi 👋  I'm Sean</h1>
               <div className="intro-description">
-                 I'm a fullstack engineer with <a style={{color:'#e6e6e6'}} href="https://lhchq.com/" target="_blank" rel="noreferrer">Lighthouse Creative Group</a>.
+                 I'm a fullstack engineer with <a href="https://lhchq.com/" target="_blank" rel="noreferrer">Lighthouse Creative Group</a>.
                  I specialize in AEM, Hubspot, and Wordpress development.
               </div>
               <SocialLinks />

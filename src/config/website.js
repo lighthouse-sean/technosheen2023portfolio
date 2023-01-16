@@ -18,12 +18,12 @@ module.exports = {
   cover: "/images/cover.jpg",
 
   // number of featured posts to show on home page
-  featuredPostCount: 2,
+  featuredPostCount: 3,
 
   // number of latest posts to show on home page before load more button
-  postPerPage: 8,
+  postPerPage: 6,
 
-  disqusShortName: "example", // disqus shortname for disqus comment
+  disqusShortName: "technosheen", // disqus shortname for disqus comment
 
   // JSONLD / Manifest for SEO
   titleAlt: "Technosheen", // Title for JSONLD
@@ -35,8 +35,8 @@ module.exports = {
   backgroundColor: "#ffffff",
 
   //Twitter and facebook data for SEO
-  twitterUsername: "@yourusername", // Twitter Username
-  facebook: "example-page", // Facebook Site Name
+  twitterUsername: "@technosheen_dev", // Twitter Username
+  facebook: "technosheen.dev", // Facebook Site Name
   ogLanguage: "en_US", // Facebook Language
   googleAnalyticsID: "XX-XXXXXXXXX-X",
 

@@ -1,8 +1,12 @@
 module.exports = {
   social: [
     {
+      name: "Linkedin",
+      url: "https://linkedin.com/in/technosheen",
+    },
+    {
       name: "Facebook",
-      url: "https://facebook.com/gbjsolution",
+      url: "https://facebook.com/technosheen.dev",
     },
     {
       name: "Instagram",
